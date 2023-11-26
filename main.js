@@ -44,7 +44,7 @@
             let withoutSpaces = text.length - countSpaces(text);
             result.innerHTML = '<b>Длина текста:</b> ' +
                 text.length + ' символов<br>' +
-                '<b>Символов без учёта пробелов:</b> ' + withoutSpaces + '<br>' +
+                '<b>Без пробелов:</b> ' + withoutSpaces + '<br>' +
                 '<b>Количество слов:</b> ' + wordsCount;
         });
 
